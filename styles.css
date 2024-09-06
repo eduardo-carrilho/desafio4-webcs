@@ -7,7 +7,7 @@
 .header__logo{
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.5em;
 }
 
 .header__logo__link{
@@ -15,7 +15,7 @@
 }
 
 .header__logo__link__imagem{
-    height: 1.5rem;
+    height: 1.5em;
 }
 
 .header__logo__nome{
@@ -26,7 +26,7 @@
 
 .header__navigation{
     display: flex;
-    gap: 1.5rem;
+    gap: 1.5em;
 }
 
 .dropdown-content{
@@ -98,12 +98,12 @@
     
 }
 .principal__descricao__headers__texto{
-    margin-bottom: -40px;
+
     margin-top: 10px;
 }
 
 .principal__descricao__texto{
-    width: 60%;
+
     font-size: 1.25rem;
     text-align: center;
     color: rgb(103,110,128);
@@ -133,7 +133,7 @@
 .principal__exemplos{
     display: flex;
     justify-content: space-around;
-    margin: 40px;
+    margin: 2.5em;
 }
 
 .principal__exemplos__empresas{
@@ -223,4 +223,11 @@
       .dropdown:hover .dropbtn {
         background-color: black;
       }
+
+      .principal__exemplos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 40px;
+    }
 }
